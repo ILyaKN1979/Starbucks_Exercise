@@ -1,33 +1,6 @@
-# The project - "Disaster Response Classification"
 
+# Project Motivation
 
-### Table of Contents
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
-
-## Installation <a name="installation"></a>
-
-There should be a distribution of Python version 3.11*.
-
-- Clone this repository
-- Choose the correct folder (cd Disaster_Response_Pipeline)
-- Activate environment: 
- 
-		python -m venv .venv
-	
-		.venv\Scripts\activate.bat  
-		
-- Install required packages by run 'pip install -r requirements.txt'
-- To run ETL pipeline that cleans data and stores in database
-	run: python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-- To run ML pipeline that trains classifier and saves
-	run: python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-	Attention! It might not be too fast!
-- cd into the app directory 'cd app' and run 'python run.py'
-- open http://127.0.0.1:3000 on your browser to view the web app
-
-
-## Project Motivation<a name="motivation"></a>
 This is the super project from Udacity - Portfolio Exercise: Starbucks 
 
 
